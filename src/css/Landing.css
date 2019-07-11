@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+@font-face {
+  font-family: 'Bungee Inline', cursive;
+  src: url('https://fonts.googleapis.com/css?family=Arimo')
+}
+
+@media all and (min-width: 1025px) {
+  .adjust-center{
+    margin-top: 14.5em;
+    margin-left: 120px;
+  }
+}
+
+
+.adjust-center{
+  margin-top: 10.5em;
+}
+
+
+.background{
+  display: flex;
+  justify-content: center; 
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0, .8), rgba(0,0,0, .8)),
+    url("https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size:cover;
+}
+
+
+.text-landing{
+  margin-top: 3em;
+  font-size: 4.3em;
+  font-weight: 1000;
+  font-family: 'Arimo', sans-serif;
+  line-height: 1.3em;
+  text-align: center;
+}
+
+.text-lading-2{
+  padding: 1.5em;
+  font-weight: 600;
+  font-size: 3.3em;
+  text-align: center;
+  
+}
+
+h1{
+  text-align: center
+}
